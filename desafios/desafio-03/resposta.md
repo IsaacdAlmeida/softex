@@ -18,10 +18,38 @@ No algoritmo, descreva como será:
 
 ## Resolução
 
-```js
-const nome = 'José Almeida da Silva' // Tipo caractere ou string
-const CPF = 12345678900 // Tipo inteiro
-const RG = 9517530 // Tipo inteiro
-const altura = 1.78 // Tipo Real
-const endereco = 'Rua A, 380 – Centro – Recife/PE' // Tipo caractere ou string
+```portugol
+algoritmo Inscricao
+var
+    nome, endereco: caractere
+    cpf, rg: inteiro
+    altura: real
+
+inicio
+    // Proposta das variáveis:
+    // nome: armazenará o nome completo do usuário
+    // cpf: armazenará o CPF do usuário
+    // rg: armazenará o RG do usuário
+    // altura: armazenará a altura do usuário
+    // endereco: armazenará o endereço completo do usuário
+    
+    // Declaração das variáveis:
+    nome <- "José Almeida da Silva"
+    cpf <- 12345678900
+    rg <- 9517530
+    altura <- 1.78
+    endereco <- "Rua A, 380 - Centro - Recife/PE"
+    
+    // Utilização do comando de atribuição:
+    // Atribuição dos valores fornecidos pelo usuário às variáveis
+    
+    // Apresentação das informações cadastradas
+    escreva("Informações da inscrição:")
+    escreva("Nome: ", nome)
+    escreva("CPF: ", cpf)
+    escreva("RG: ", rg)
+    escreva("Altura: ", altura)
+    escreva("Endereço: ", endereco)
+
+fimalgoritmo
 ```
