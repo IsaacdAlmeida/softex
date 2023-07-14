@@ -23,4 +23,19 @@ Expressões:
 
 ## Resolução
 
+### (V) Jogador 1: (pontos >= 100) and (moedas >= 5) and (enfrentou_chefe == Sim)
+ - Substituindo os valores: (120 >= 100) and (15 >= 5) and (sim == Sim).
+ - Todas as condições são verdadeiras, portanto a expressão é verdadeira (V).
+
+### (F) Jogador 2: (pontos >= 100) and (moedas >= 5) and (enfrentou_chefe == Não)
+ - Substituindo os valores: (99 >= 100) and (200 >= 5) and (não == Não).
+ - A primeira condição é falsa (99 >= 100), portanto a expressão é falsa (F).
+
+### (V) Jogador 3: (pontos < 100) or (moedas < 5) or (enfrentou_chefe == Sim)
+ - Substituindo os valores: (100 < 100) or (5 < 5) or (sim == Sim).
+ - A primeira e segunda condições são falsas, mas a terceira é verdadeira, portanto a expressão é verdadeira (V).
+
+### (V) Jogador 4: (pontos != 100) or (moedas != 5) or not(enfrentou_chefe == Não)
+ - Substituindo os valores: (101 != 100) or (4 != 5) or not(não == Não).
+ - A primeira expressão é verdadeira, como se trata de condicional __ou__ a expressão é verdadeira.
 
