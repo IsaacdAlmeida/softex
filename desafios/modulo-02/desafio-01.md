@@ -1,4 +1,4 @@
-# Desafio
+# Instruções
 
 ## Desafio
 
@@ -8,3 +8,20 @@ Utilizando o Google Blockly construa o algoritmos que realiza esse processamento
 
 ## Resolução
 
+A resolução feita no blockly, nesse caso criei uma função que recebe dois parâmetros (duas notas) e faz o cálculo da média. 
+
+A função utiliza conceitos de __early return__, no caso em que a nota for menor que 7, irá retornar a string **Reprovado**, nos outros caso (nota maior ou igual a 7), ele retorna **Aprovado**
+
+![resolucao](./img/resolucao-desafio.png)
+
+Solução em Javascript:
+
+```js
+function calculaMedia(nota1, nota2) {
+  const media = (nota1 + nota2) / 2;
+  if (media < 7) {
+    return 'Reprovado';
+  }
+  return 'Aprovado';
+}
+```
