@@ -1,5 +1,7 @@
+# INSTRUÇÕES DO PROJETO
 
-INSTRUÇÕES DO PROJETO
+## Desafio
+
 Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
 
 - Nome
@@ -14,6 +16,8 @@ Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados
 - Renda bruta
 
 Apresente as informações solicitadas no final do cadastro.
+
+## Resposta
 
 ```portugol
 algoritmo Cadastro
