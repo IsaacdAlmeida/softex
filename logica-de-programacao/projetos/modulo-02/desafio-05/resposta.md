@@ -6,7 +6,7 @@ Faça um código, utilizando o Google Blockly, que execute a contagem regressiva
 
 ## Resposta
 
-Conforme informado, as respostas não precisam ser necessariamente no bocly, dito isso fiz a resposta em JavaScript com o uso de função e _setTimeout_.
+Conforme informado, as respostas não precisam ser necessariamente no blockly, dito isso fiz a resposta em JavaScript com o uso de função e _setTimeout_.
 
 O arquivo [script.js](./script.js) pode ser executado normalmente e o console irá exibir a contagem abaixo:
 
